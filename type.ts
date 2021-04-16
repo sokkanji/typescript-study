@@ -10,6 +10,7 @@ let tupleArr: [string, number] = ['hi', 10];
 // Enum: 특정 값(상수)들의 집합
 enum Avengers { Capt, IronMan, Thor }
 let hero: Avengers = Avengers.Capt;
+console.log(hero);
 
 // let hero: Avengers = Avengers[0];
 
@@ -22,6 +23,7 @@ let hero: Avengers = Avengers.Capt;
 let str: any = 'hi';
 let num: any = 10;
 let arr2: any = ['a', 2, true];
+
 
 // Never: 함수의 끝에 절대 도달하지 않는다는 의미
 // 이 함수는 절대 함수의 끝까지 실행되지 않는다는 의미
